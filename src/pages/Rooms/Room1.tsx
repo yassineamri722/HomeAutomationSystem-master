@@ -7,7 +7,7 @@ import DoorToggle from "../../components/room/DoorToggle";
 import WindowToggle from "../../components/room/WindowToggle";
 
 const Room1: React.FC = () => {
-  const socketUrl = "ws://192.168.1.74:8000/ws"; // WebSocket for Room1
+  const socketUrl = ""; // WebSocket for Room1
 
   return (
     <div className="p-6 space-y-6">
