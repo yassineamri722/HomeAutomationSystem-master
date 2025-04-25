@@ -7,6 +7,7 @@ const ModelStatusRL = () => {
     const checkRLStatus = async () => {
         try {
             const res = await axios.get("https://myrl-hpgxb5gaezembecs.canadacentral-01.azurewebsites.net/");
+            
             // Adapte cette logique selon la vraie réponse
             if (res.status === 200) {
                 setStatus("online");
