@@ -11,7 +11,7 @@ const RLStatus: React.FC = () => {
   useEffect(() => {
     const fetchRLStatus = async () => {
       try {
-        const response = await axios.post("https://myrl-hpgxb5gaezembecs.canadacentral-01.azurewebsites.net/init", {
+        const response = await axios.post("http://127.0.0.1:8000/get-action", {
           state: [25.0, 0, 1],
         });
 
