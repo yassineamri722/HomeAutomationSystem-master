@@ -37,4 +37,4 @@ jobs:
 
     - name: Deploy to AKS
       run: |
-        kubectl apply -f HomeAutomationSystem-master/frontend-deployment.yaml
+        kubectl apply -f frontend-deployment.yaml
