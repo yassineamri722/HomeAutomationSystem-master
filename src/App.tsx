@@ -22,7 +22,7 @@ export default function App() {
       <Router>
         <ScrollToTop />
         <Routes>
-          {/* Dashboard Layout */}
+          {/* Dashboard Lut */}
           <Route element={<AppLayout />}>
             <Route index path="/" element={<Home />} />
             {/* Others Page */}

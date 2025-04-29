@@ -26,7 +26,7 @@ jobs:
         push: true
         tags: ${{ secrets.DOCKER_USERNAME }}/frontend:latest
 
-    - name: Azure Login
+    - name: Azure Login 
       uses: azure/login@v2
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
