@@ -15,7 +15,7 @@ const HumidityWidget: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.post("http://127.0.0.1:8000/get-action", {
+        const response = await axios.post("https://myrl-hpgxb5gaezembecs.canadacentral-01.azurewebsites.net/", {
           state: [25.0, 0, 1],
         });
 
