@@ -11,8 +11,7 @@ npm run dev
 
 ## 🔗 Modèles intégrés
 
-- 🤖 [RL Agent (Apprentissage par renforcement)](https://github.com/yassineamri722/Rl_Agent)
-- 👤 [Face Recognition (Reconnaissance faciale)](https://github.com/yassineamri722/face_recognition)
-- 🎤 [Vocal Recognition (Commande vocale)](https://github.com/yassineamri722/VocalRecognition)
-- ✋ [Hand Motion (Détection des gestes de la main)](https://github.com/yassineamri722/HandMotion)
-
+- 🤖 <a href="https://github.com/yassineamri722/Rl_Agent" target="_blank">RL Agent</a> (Apprentissage par renforcement)
+- 👤 <a href="https://github.com/yassineamri722/face_recognition" target="_blank">Face Recognition</a> (Reconnaissance faciale)
+- 🎤 <a href="https://github.com/yassineamri722/VocalRecognition" target="_blank">Vocal Recognition</a> (Commande vocale)
+- ✋ <a href="https://github.com/yassineamri722/HandMotion" target="_blank">Hand Motion</a> (Détection des gestes de la main)
